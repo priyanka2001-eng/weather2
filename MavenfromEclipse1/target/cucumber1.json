@@ -1,0 +1,423 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 22,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 35873378476,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I open Chrome",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chrome",
+                  "offset": 7
+                }
+              ],
+              "location": "Verification.openBrowser(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10310750661,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I go to ApplicationURL",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ApplicationURL",
+                  "offset": 8
+                }
+              ],
+              "location": "Verification.navigate(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 657593735,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Verification.before(Scenario)"
+            }
+          }
+        ],
+        "line": 26,
+        "name": "Verification of fields on the page",
+        "description": "",
+        "id": "to-verify-all-important-information-is-present-on-the-page;verification-of-fields-on-the-page",
+        "after": [
+          {
+            "result": {
+              "duration": 3110843029,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Verification.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 358228935,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "The field with locatorName should be present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "locatorName",
+                  "offset": 15
+                }
+              ],
+              "location": "Verification.fieldPresent(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 175526824,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Total number of links present",
+            "match": {
+              "location": "Verification.linksverify()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@Firstage"
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3660242969,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I open Chrome",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chrome",
+                  "offset": 7
+                }
+              ],
+              "location": "Verification.openBrowser(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9532892315,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I go to ApplicationURL",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ApplicationURL",
+                  "offset": 8
+                }
+              ],
+              "location": "Verification.navigate(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1402484,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Verification.before(Scenario)"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "On entering invalid data website suggests city is Not found",
+        "description": "",
+        "id": "to-verify-all-important-information-is-present-on-the-page;on-entering-invalid-data-website-suggests-city-is-not-found",
+        "after": [
+          {
+            "result": {
+              "duration": 1392740822,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Verification.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1162195424,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User enters the invalid name of city as xyz",
+            "match": {
+              "arguments": [
+                {
+                  "val": "city",
+                  "offset": 32
+                },
+                {
+                  "val": "xyz",
+                  "offset": 40
+                }
+              ],
+              "location": "Verification.enterCity(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5384771700,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User clicks on the button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "button",
+                  "offset": 19
+                }
+              ],
+              "location": "Verification.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 128089602,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "The output should be Not found",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Not found",
+                  "offset": 21
+                }
+              ],
+              "location": "Verification.output(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@Negative"
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4267842616,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I open Chrome",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chrome",
+                  "offset": 7
+                }
+              ],
+              "location": "Verification.openBrowser(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8091052978,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I go to ApplicationURL",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ApplicationURL",
+                  "offset": 8
+                }
+              ],
+              "location": "Verification.navigate(String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2274852,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Verification.before(Scenario)"
+            }
+          }
+        ],
+        "line": 38,
+        "name": "On entering valid data website successfully returns weather details for the city.",
+        "description": "",
+        "id": "to-verify-all-important-information-is-present-on-the-page;on-entering-valid-data-website-successfully-returns-weather-details-for-the-city.",
+        "after": [
+          {
+            "result": {
+              "duration": 1196504725,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Verification.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 342233130,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "User enters the valid name of city as Mumbai",
+            "match": {
+              "arguments": [
+                {
+                  "val": "city",
+                  "offset": 30
+                },
+                {
+                  "val": "Mumbai",
+                  "offset": 38
+                }
+              ],
+              "location": "Verification.enterCityName(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4533292132,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User clicks on the button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "button",
+                  "offset": 19
+                }
+              ],
+              "location": "Verification.click(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 143659263,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "The correct result should be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "result",
+                  "offset": 12
+                }
+              ],
+              "location": "Verification.correctData(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@Positive"
+          }
+        ]
+      }
+    ],
+    "name": "To verify all important information is present on the page",
+    "description": "",
+    "id": "to-verify-all-important-information-is-present-on-the-page",
+    "keyword": "Feature",
+    "uri": "src/test/resources/com/openweather/map/Feature.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
